@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: "Nunito", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    padding: 5px 20px;
+    box-shadow: 0px 5px 20px;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+}
+
+header img{
+    color: green;
+    background: none;
+    height: 80px;
+    width: 75px;
+    font-weight: 900;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav a{
+    background: none;
+}
+
+.link{
+    text-shadow: 0px 0px 10px black;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s;
+    border-radius: 5px;
+}
+
+.link:hover{
+    box-shadow: 0px 5px 10px black;
+    transform: translateY(-5px);
+}
+
+nav button{
+    border: none;
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav button:hover{
+    background-color: rgb(0, 77, 0);
+    color: white;
+    box-shadow: 0px 5px 10px black;
+    transform: translateY(-5px);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 100%;
+    gap: 100px;
+    padding: 100px 0px 100px 0px;
+}
+
+main h1{
+    font-size: 50px;
+    background: none;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background: none;
+    display: flex;
+}
+
+.image{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 2fr);
+    justify-content: space-evenly;
+    gap: 10px;
+    background: none;
+}
+
+.image img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid green;
+}
+
+.products h2{
+    width: 20%;
+    font-size: 32px;
+    background: none;
+}
+
+footer{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px;
+    background: none;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foot h1{
+    font-size: 20px;
+}
+
+.menu-links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu-links a{
+    color: black;
+    text-decoration: none;
+}
+
+.foot a{
+    text-decoration: none;
+    color: black;
+}
+
+.about-links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.about-links a{
+    color: black;
+    text-decoration: none;
+}
+
+.contact-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-link{
+    display: flex;
+    align-items: center;
+}
+
+.contact-link img{
+    width: 20px;
+    height: 20px;
+}
+
+.contact-link a{
+    color: black;
+    text-decoration: none;
+}
+
+.follow-us{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.follow-us h1{
+    font-size: 20px;
+}
+
+.follow-links{
+    display: flex;
+    gap: 20px;
+}
+
+.follow-links img{
+    width: 20px;
+    height: 20px;
+}

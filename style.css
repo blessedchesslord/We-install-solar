@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: "Nunito", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    padding: 5px 20px;
+    box-shadow: 0px 5px 20px;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+}
+
+header img{
+    color: green;
+    background: none;
+    height: 80px;
+    width: 75px;
+    font-weight: 900;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav a{
+    background: none;
+}
+
+.link{
+    text-shadow: 0px 0px 10px black;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s;
+    border-radius: 5px;
+}
+
+.link:hover{
+    box-shadow: 0px 5px 10px black;
+    transform: translateY(-5px);
+}
+
+nav button{
+    border: none;
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav button:hover{
+    background-color: rgb(0, 77, 0);
+    color: white;
+    box-shadow: 0px 5px 10px black;
+    transform: translateY(-5px);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 50px 50px 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3)), url(/images/vecteezy_a-scenic-view-of-solar-panels-reflecting-the-sunset-in-a_69635307.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main h1{
+    background: none;
+    color: white;
+    font-size: 70px;
+    text-shadow: 10px 5px 10px black;
+}
+ 
+main h1 span{
+    font-weight: 900;
+    background: none;
+    color: green;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: none;
+}
+
+.description h3{
+    color: white;
+    font-size: 40px;
+    background: none;
+}
+
+.description p{
+    color: white;
+    font-size: 30px;
+    background: none;
+}
+
+.main-buttons{
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 25% 0px 25%;
+    background: none;
+}
+
+.main-buttons a{
+    background: none;
+}
+
+.consult{
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    border-radius: 5px;
+}
+
+.consult:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 77, 0);
+    color: white;
+}
+
+.more{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    border-radius: 5px;
+}
+
+.more:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.sec h1{
+    color: goldenrod;
+    font-size: 32px;
+}
+
+.sec h2{
+    color: black;
+    font-size: 24px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 640px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+}
+
+.about h1{
+    font-size: 50px;
+    background: none;
+}
+
+.left-about{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.left-about p{
+    padding: 0px 50px 0px 0px;
+    font-size: 30px;
+    background: none;
+}
+
+.left-about img{
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.left-about img:hover{
+    transform: scale(1.03);
+}
+
+.about button{
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    border-radius: 5px;
+}
+
+.about button:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 77, 0);
+    color: white;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+.services h1{
+    font-size: 50px;
+    background: none;
+}
+
+.left-services{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 50px;
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: fit-content;
+    border-radius: 10px;
+    contain: content;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.photo:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 5px black;
+}
+
+.photo img{
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+}
+
+.photo h3{
+    font-size: 18px;
+    color: white;
+    background-color: green;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.services button{
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    border-radius: 5px;
+}
+
+.services button:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 77, 0);
+    color: white;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 50px;
+    width: 100%;
+}
+
+.products h1{
+    font-size: 50px;
+    background: none;
+}
+
+.product-side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+}
+
+.product-side p{
+    font-size: 30px;
+    width: 65%;
+    background: none;
+}
+
+.product-side img{
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.product-side img:hover{
+    transform: scale(1.03);
+}
+
+.products button{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.steps{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 50px;
+    width: 100%;
+}
+
+.steps h3{
+    font-size: 32px;
+    background: none;
+}
+
+.steps h3 span{
+    font-weight: 900;
+    background: none;
+    color: green;
+}
+
+.steps ol{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+ol li{
+    padding: 10px;
+    font-size: 20px;
+    background: none;
+    color: black;
+}
+
+.reason{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url(/images/clyde-rs-4XbZCfU2Uoo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
+    padding: 50px;
+}
+
+.reason h1{
+    font-size: 50px;
+    background: none;
+}
+
+.reason-side{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 20px;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+    background: none;
+}
+
+.cost{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 330px;
+    padding: 50px;
+}
+
+.cost h2{
+    font-size: 24px;
+    background: none;
+}
+
+.cost p{
+    font-size: 16px;
+    background: none;
+}
+
+.open{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0, 0, 0, 0.3)), url(/images/wind-solar.jpg);
+    width: 90%;
+    height: 230px;
+    padding: 50px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.open h1{
+    color: white;
+    background: none;
+}
+
+.days{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background: none;
+}
+
+.opening-days{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+.opening-days h2{
+    font-size: 30px;
+    color: white;
+    background: none;
+}
+
+.opening-days p{
+    font-size: 20px;
+    color: white;
+    background: none;
+}
+
+footer{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px;
+    background: none;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foot h1{
+    font-size: 20px;
+}
+
+.menu-links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu-links a{
+    color: black;
+    text-decoration: none;
+}
+
+.foot a{
+    text-decoration: none;
+    color: black;
+}
+
+.about-links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.about-links a{
+    color: black;
+    text-decoration: none;
+}
+
+.contact-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-link{
+    display: flex;
+    align-items: center;
+}
+
+.contact-link img{
+    width: 20px;
+    height: 20px;
+}
+
+.contact-link a{
+    color: black;
+    text-decoration: none;
+}
+
+.follow-us{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.follow-us h1{
+    font-size: 20px;
+}
+
+.follow-links{
+    display: flex;
+    gap: 20px;
+}
+
+.follow-links img{
+    width: 20px;
+    height: 20px;
+}
