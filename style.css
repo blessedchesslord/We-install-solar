@@ -8,6 +8,15 @@
     font-family: "Nunito", sans-serif;
 }
 
+.desktop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+}
+
 body{
     display: flex;
     align-items: center;
@@ -374,6 +383,14 @@ main h1 span{
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.products button:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 77, 0);
+    color: white;
 }
 
 .steps{
@@ -449,6 +466,7 @@ ol li{
     width: 100%;
     height: 330px;
     padding: 50px;
+    cursor: default;
 }
 
 .cost h2{
@@ -596,4 +614,53 @@ footer{
 .follow-links img{
     width: 20px;
     height: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .mobile-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: green;
+    }
+
+    .menu-open{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .logo{
+        width: 60px;
+        background: none;
+    }
+
+    .ham{
+        width: 40px;
+        background: none;
+    }
+
+    .menu-close{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+        padding: 0px 20px 0px 20px;
+    }
 }
