@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>We Install Solar</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="/index.js"></script>
 </head>
 <body>
     <div class="desktop">
@@ -226,11 +227,19 @@
         <div class="mobile-header">
             <div class="menu-open">
                 <img class="logo" src="/images/BEEPEEGES_logo-removebg-preview.png" alt="">
-                <img class="ham" src="/images/icon-hamburger.svg" alt="">
+                <img class="ham" id="ham" src="/images/icon-hamburger.svg" alt="">
             </div>
-            <div class="menu-close">
-                <img class="logo" src="/images/BEEPEEGES_logo-removebg-preview.png" alt="">
-                <img class="close" src="/images/x (1).svg" alt="">
+            <div class="menu-close" id="menuClose">
+                <div class="close-top">
+                    <img class="logo" src="/images/BEEPEEGES_logo-removebg-preview.png" alt="">
+                    <img class="close" id="close" src="/images/x (1).svg" alt="">
+                </div>
+                <div class="mobile-nav">
+                    <a href="/index.html">Home</a>
+                    <a href="/about.html">About</a>
+                    <a href="/services.html">Services</a>
+                    <a href="/products.html">Products</a>
+                </div>
             </div>
         </div>
         <div class="mobile-main">
