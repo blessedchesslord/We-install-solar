@@ -103,6 +103,7 @@ main{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 main h1{
@@ -629,7 +630,9 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
         width: 100%;
+        gap: 100px;
     }
 
     .mobile-header{
@@ -637,8 +640,10 @@ footer{
         align-items: center;
         justify-content: center;
         width: 100%;
-        background-color: green;
-        position: relative;
+        background-color: rgb(0, 100, 0);
+        position: fixed;
+        top: 0%;
+        z-index: 1;
     }
 
     .menu-open{
@@ -701,4 +706,2130 @@ footer{
         color: white;
         font-size: 25px;
     }
+
+    .mobile-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.3)), url(/images/vecteezy_a-scenic-view-of-solar-panels-reflecting-the-sunset-in-a_69635307.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 50px 50px 0px 50px;
+    }
+
+    .mobile-main h1{
+        color: white;
+        font-size: 50px;
+        background: none;
+        text-shadow: 0px 0px 10px black;
+    }
+
+    .mobile-main h1 span{
+        color: green;
+        background: none;
+    }
+
+    .describe{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 10px;
+        background: none;
+    }
+
+    .describe h3{
+        color: white;
+        background: none;
+        font-size: 24px;
+    }
+
+    .describe p{
+        color: white;
+        background: none;
+        font-size: 20px;
+    }
+
+    .mobile-buttons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: none;
+        width: 50%;
+        height: fit-content;
+    }
+
+    .mobile-buttons a{
+        background: none;
+    }
+
+    .free{
+        color: white;
+        background-color: green;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+    .free:active{
+        color: green;
+        background-color: white;
+    }
+
+    .learn{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 10px 20px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
+
+    .learn:active{
+        background-color: white;
+        color: black;
+    }
+
+    .mobile-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+    }
+
+    .mobile-sec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: none;
+    }
+
+    .mobile-sec h1{
+        color: goldenrod;
+        font-size: 32px;
+    }
+
+    .mobile-sec h2{
+        color: black;
+        font-size: 24px;
+    }
+
+    .mobile-about{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 700px;
+        padding: 10px 30px;
+    }
+
+    .mobile-about h1{
+        color: black;
+        font-size: 32px;
+    }
+
+    .mobile-left{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 550px;
+    }
+
+    .mobile-left p{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .mobile-left img{
+        width: 400px;
+        border-radius: 10px;
+    }
+
+    .link-btn{
+        color: white;
+        background-color: green;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .link-btn:active{
+        background-color: white;
+        color: green;
+        border: 1px solid green;
+    }
+
+    .mobile-services{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 1050px;
+    }
+
+    .mobile-services h1{
+        color: black;
+        font-size: 32px;
+    }
+
+    .mobile-serve{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 950px;
+    }
+
+    .mobile-photo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 400px;
+        border-radius: 10px;
+        contain: content;
+    }
+
+    .mobile-photo img{
+        object-fit: cover;
+        object-position: center;
+        width: 400px;
+    }
+
+    .mobile-photo h3{
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        background-color: green;
+        width: 100%;
+    }
+
+    .mobile-products{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 730px;
+        padding: 10px 30px;
+    }
+
+    .mobile-products h1{
+        color: black;
+        font-size: 32px;
+    }
+
+    .mobile-side{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 610px;
+    }
+
+    .mobile-side p{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .mobile-side img{
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .mobile-steps{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 100px;
+    }
+
+    .mobile-steps h3{
+        color: black;
+        font-size: 24px;
+    }
+
+    .mobile-steps h3 span{
+        color: green;
+        font-weight: 900;
+    }
+    .mobile-steps ol{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mobile-steps ol li{
+        color: black;
+        font-size: 20px;
+    }
+
+    .mobile-reason{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(/images/clyde-rs-4XbZCfU2Uoo-unsplash.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding: 50px 0px 0px 0px;
+    }
+
+    .mobile-reason h1{
+        color: black;
+        background: none;
+        font-size: 32px;
+    }
+
+    .mobile-reason-side{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 1500px;
+        background: none;
+    }
+
+    .mobile-cost{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        width: 70%;
+        padding: 30px;
+        gap: 10px;
+        background-color: white;
+    }
+
+    .mobile-cost h2{
+        color: black;
+        font-size: 24px;
+    }
+
+    .mobile-cost p{
+        color: black;
+        font-size: 16px;
+    }
+
+    .mobile-open{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background: linear-gradient(rgba(0, 0, 0, 0.3)), url(/images/wind-solar.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 600px;
+        height: 350px;
+    }
+
+    .mobile-open h1{
+        color: white;
+        background: none;
+        font-size: 32px;
+    }
+
+    .mobile-days{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        background: none;
+    }
+
+    .mobile-opening{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-opening h2{
+        color: white;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-opening p{
+        color: white;
+        background: none;
+        font-size: 16px;
+    }
+    .mobile-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 60vh;
+        padding: 20px;
+        background-color: rgb(92, 92, 92);
+    }
+
+    .mobile-foot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-foot h1{
+        color: white;
+        background: none;
+        font-size: 32px;
+    }
+
+    .mobile-foot a{
+        text-decoration: none;
+        color: white;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-contacts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact img{
+        width: 20px;
+        background: none;
+    }
+
+    .mobile-contact a{
+        color: white;
+        font-size: 24px;
+        background: none;
+    }
+
+    .mobile-follows{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: none;
+        width: 100%;
+    }
+
+    .mobile-follows h1{
+        color: white;
+        background: none;
+        font-size: 32px;
+    }
+
+    .mobile-follow{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 30%;
+        background: none;
+    }
+
+    .mobile-follow img{
+        width: 30px;
+        background: none;
+    }
 }
+
+@media screen and (max-width:425px) {
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .mobile-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: rgb(0, 100, 0);
+        position: fixed;
+        top: 0%;
+        z-index: 1;
+    }
+
+    .menu-open{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .logo{
+        width: 40px;
+        background: none;
+    }
+
+    .ham{
+        width: 30px;
+        background: none;
+    }
+
+    .menu-close{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 70vh;
+        background-color: black;
+        padding: 0px 20px 100px 20px;
+        position: absolute;
+        top: 0%;
+    }
+
+    .close-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+    }
+
+    .close{
+        width: 30px;
+        background: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        background: none;
+    }
+
+    .mobile-nav a{
+        background: none;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+
+    .mobile-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 80vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.3)), url(/images/vecteezy_a-scenic-view-of-solar-panels-reflecting-the-sunset-in-a_69635307.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 30px 30px 0px 30px;
+    }
+
+    .mobile-main h1{
+        color: white;
+        font-size: 32px;
+        background: none;
+        text-shadow: 0px 0px 5px black;
+    }
+
+    .mobile-main h1 span{
+        color: green;
+        background: none;
+    }
+
+    .describe{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 10px;
+        background: none;
+    }
+
+    .describe h3{
+        color: white;
+        background: none;
+        font-size: 20px;
+    }
+
+    .describe p{
+        color: white;
+        background: none;
+        font-size: 16px;
+    }
+
+    .mobile-buttons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: none;
+        width: 75%;
+        height: fit-content;
+    }
+
+    .mobile-buttons a{
+        background: none;
+    }
+
+    .free{
+        color: white;
+        background-color: green;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .free:active{
+        color: green;
+        background-color: white;
+    }
+
+    .learn{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 5px 10px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
+
+    .learn:active{
+        background-color: white;
+        color: black;
+    }
+
+    .mobile-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 150px;
+    }
+
+    .mobile-sec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: none;
+    }
+
+    .mobile-sec h1{
+        color: goldenrod;
+        font-size: 24px;
+    }
+
+    .mobile-sec h2{
+        color: black;
+        font-size: 20px;
+    }
+
+    .mobile-about{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 700px;
+        padding: 10px 30px;
+    }
+
+    .mobile-about h1{
+        color: black;
+        font-size: 24px;
+    }
+
+    .mobile-left{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 550px;
+    }
+
+    .mobile-left p{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .mobile-left img{
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .link-btn{
+        color: white;
+        background-color: green;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .link-btn:active{
+        background-color: white;
+        color: green;
+        border: 1px solid green;
+    }
+
+    .mobile-services{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 950px;
+    }
+
+    .mobile-services h1{
+        color: black;
+        font-size: 24px;
+    }
+
+    .mobile-serve{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 800px;
+    }
+
+    .mobile-photo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+        border-radius: 10px;
+        contain: content;
+    }
+
+    .mobile-photo img{
+        object-fit: cover;
+        object-position: center;
+        width: 300px;
+    }
+
+    .mobile-photo h3{
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        padding: 5px;
+        background-color: green;
+        width: 100%;
+    }
+
+    .mobile-products{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 730px;
+        padding: 10px 30px;
+    }
+
+    .mobile-products h1{
+        color: black;
+        font-size: 24px;
+    }
+
+    .mobile-side{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 610px;
+    }
+
+    .mobile-side p{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .mobile-side img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .mobile-steps{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 50px;
+    }
+
+    .mobile-steps h3{
+        color: black;
+        font-size: 24px;
+    }
+
+    .mobile-steps h3 span{
+        color: green;
+        font-weight: 900;
+    }
+    .mobile-steps ol{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mobile-steps ol li{
+        color: black;
+        font-size: 20px;
+    }
+
+    .mobile-reason{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(/images/clyde-rs-4XbZCfU2Uoo-unsplash.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding: 50px 0px 0px 0px;
+    }
+
+    .mobile-reason h1{
+        color: black;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-reason-side{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 1500px;
+        background: none;
+    }
+
+    .mobile-cost{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        padding: 20px;
+        gap: 10px;
+        background-color: white;
+    }
+
+    .mobile-cost h2{
+        color: black;
+        font-size: 20px;
+    }
+
+    .mobile-cost p{
+        color: black;
+        font-size: 12px;
+    }
+
+    .mobile-open{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background: linear-gradient(rgba(0, 0, 0, 0.3)), url(/images/wind-solar.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 350px;
+    }
+
+    .mobile-open h1{
+        color: white;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-days{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        background: none;
+    }
+
+    .mobile-opening{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-opening h2{
+        color: white;
+        background: none;
+        font-size: 20px;
+    }
+
+    .mobile-opening p{
+        color: white;
+        background: none;
+        font-size: 12px;
+    }
+    
+    .mobile-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 60vh;
+        padding: 20px;
+        background-color: rgb(92, 92, 92);
+    }
+
+    .mobile-foot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-foot h1{
+        color: white;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-foot a{
+        text-decoration: none;
+        color: white;
+        background: none;
+        font-size: 20px;
+    }
+
+    .mobile-contacts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact img{
+        width: 16px;
+        background: none;
+    }
+
+    .mobile-contact a{
+        color: white;
+        font-size: 20px;
+        background: none;
+    }
+
+    .mobile-follows{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: none;
+        width: 100%;
+    }
+
+    .mobile-follows h1{
+        color: white;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-follow{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 40%;
+        background: none;
+    }
+
+    .mobile-follow img{
+        width: 20px;
+        background: none;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .mobile-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: rgb(0, 100, 0);
+        position: fixed;
+        top: 0%;
+        z-index: 1;
+    }
+
+    .menu-open{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .logo{
+        width: 40px;
+        background: none;
+    }
+
+    .ham{
+        width: 30px;
+        background: none;
+    }
+
+    .menu-close{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 70vh;
+        background-color: black;
+        padding: 0px 20px 100px 20px;
+        position: absolute;
+        top: 0%;
+    }
+
+    .close-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+    }
+
+    .close{
+        width: 30px;
+        background: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        background: none;
+    }
+
+    .mobile-nav a{
+        background: none;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+
+    .mobile-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 80vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.3)), url(/images/vecteezy_a-scenic-view-of-solar-panels-reflecting-the-sunset-in-a_69635307.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .mobile-main h1{
+        color: white;
+        font-size: 30px;
+        background: none;
+        text-shadow: 0px 0px 5px black;
+    }
+
+    .mobile-main h1 span{
+        color: green;
+        background: none;
+    }
+
+    .describe{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 10px;
+        background: none;
+    }
+
+    .describe h3{
+        color: white;
+        background: none;
+        font-size: 18px;
+    }
+
+    .describe p{
+        color: white;
+        background: none;
+        font-size: 12px;
+    }
+
+    .mobile-buttons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: none;
+        width: 75%;
+        height: fit-content;
+    }
+
+    .mobile-buttons a{
+        background: none;
+    }
+
+    .free{
+        font-size: 10px;
+        color: white;
+        background-color: green;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .free:active{
+        color: green;
+        background-color: white;
+    }
+
+    .learn{
+        font-size: 10px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 5px 10px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
+
+    .learn:active{
+        background-color: white;
+        color: black;
+    }
+
+    .mobile-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 150px;
+    }
+
+    .mobile-sec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: none;
+    }
+
+    .mobile-sec h1{
+        color: goldenrod;
+        font-size: 22px;
+    }
+
+    .mobile-sec h2{
+        color: black;
+        font-size: 18px;
+    }
+
+    .mobile-about{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+        padding: 10px 30px;
+    }
+
+    .mobile-about h1{
+        color: black;
+        font-size: 22px;
+    }
+
+    .mobile-left{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 470px;
+    }
+
+    .mobile-left p{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .mobile-left img{
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .link-btn{
+        color: white;
+        background-color: green;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .link-btn:active{
+        background-color: white;
+        color: green;
+        border: 1px solid green;
+    }
+
+    .mobile-services{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 750px;
+    }
+
+    .mobile-services h1{
+        color: black;
+        font-size: 22px;
+    }
+
+    .mobile-serve{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 650px;
+    }
+
+    .mobile-photo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 250px;
+        border-radius: 10px;
+        contain: content;
+    }
+
+    .mobile-photo img{
+        object-fit: cover;
+        object-position: center;
+        width: 250px;
+    }
+
+    .mobile-photo h3{
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        padding: 5px;
+        background-color: green;
+        width: 100%;
+    }
+
+    .mobile-products{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 680px;
+        padding: 10px 30px;
+    }
+
+    .mobile-products h1{
+        color: black;
+        font-size: 22px;
+    }
+
+    .mobile-side{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 550px;
+    }
+
+    .mobile-side p{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .mobile-side img{
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .mobile-steps{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 50px;
+    }
+
+    .mobile-steps h3{
+        color: black;
+        font-size: 22px;
+    }
+
+    .mobile-steps h3 span{
+        color: green;
+        font-weight: 900;
+    }
+    .mobile-steps ol{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mobile-steps ol li{
+        color: black;
+        font-size: 18px;
+    }
+
+    .mobile-reason{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(/images/clyde-rs-4XbZCfU2Uoo-unsplash.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding: 50px 0px 0px 0px;
+    }
+
+    .mobile-reason h1{
+        color: black;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-reason-side{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 1500px;
+        background: none;
+    }
+
+    .mobile-cost{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        padding: 20px;
+        gap: 10px;
+        background-color: white;
+    }
+
+    .mobile-cost h2{
+        color: black;
+        font-size: 20px;
+    }
+
+    .mobile-cost p{
+        color: black;
+        font-size: 12px;
+    }
+
+    .mobile-open{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background: linear-gradient(rgba(0, 0, 0, 0.3)), url(/images/wind-solar.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 300px;
+    }
+
+    .mobile-open h1{
+        color: white;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-days{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        background: none;
+    }
+
+    .mobile-opening{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-opening h2{
+        color: white;
+        background: none;
+        font-size: 18px;
+    }
+
+    .mobile-opening p{
+        color: white;
+        background: none;
+        font-size: 10px;
+    }
+    .mobile-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 60vh;
+        padding: 20px;
+        background-color: rgb(92, 92, 92);
+    }
+
+    .mobile-foot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-foot h1{
+        color: white;
+        background: none;
+        font-size: 22px;
+    }
+
+    .mobile-foot a{
+        text-decoration: none;
+        color: white;
+        background: none;
+        font-size: 18px;
+    }
+
+    .mobile-contacts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact img{
+        width: 16px;
+        background: none;
+    }
+
+    .mobile-contact a{
+        color: white;
+        font-size: 18px;
+        background: none;
+    }
+
+    .mobile-follows{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: none;
+        width: 100%;
+    }
+
+    .mobile-follows h1{
+        color: white;
+        background: none;
+        font-size: 22px;
+    }
+
+    .mobile-follow{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 40%;
+        background: none;
+    }
+
+    .mobile-follow img{
+        width: 18px;
+        background: none;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .mobile-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: rgb(0, 100, 0);
+        position: fixed;
+        top: 0%;
+        z-index: 1;
+    }
+
+    .menu-open{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .logo{
+        width: 30px;
+        background: none;
+    }
+
+    .ham{
+        width: 20px;
+        background: none;
+    }
+
+    .menu-close{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 70vh;
+        background-color: black;
+        padding: 0px 15px 100px 15px;
+        position: absolute;
+        top: 0%;
+    }
+
+    .close-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+    }
+
+    .close{
+        width: 20px;
+        background: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        background: none;
+    }
+
+    .mobile-nav a{
+        background: none;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+
+    .mobile-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 80vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.3)), url(/images/vecteezy_a-scenic-view-of-solar-panels-reflecting-the-sunset-in-a_69635307.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 10px 10px 0px 10px;
+    }
+
+    .mobile-main h1{
+        color: white;
+        font-size: 30px;
+        background: none;
+        text-shadow: 0px 0px 5px black;
+    }
+
+    .mobile-main h1 span{
+        color: green;
+        background: none;
+    }
+
+    .describe{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 10px;
+        background: none;
+    }
+
+    .describe h3{
+        color: white;
+        background: none;
+        font-size: 16px;
+    }
+
+    .describe p{
+        color: white;
+        background: none;
+        font-size: 10px;
+    }
+
+    .mobile-buttons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: none;
+        width: 75%;
+        height: fit-content;
+    }
+
+    .mobile-buttons a{
+        background: none;
+    }
+
+    .free{
+        font-size: 10px;
+        color: white;
+        background-color: green;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .free:active{
+        color: green;
+        background-color: white;
+    }
+
+    .learn{
+        font-size: 10px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 5px 10px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+    }
+
+    .learn:active{
+        background-color: white;
+        color: black;
+    }
+
+    .mobile-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 150px;
+    }
+
+    .mobile-sec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: none;
+    }
+
+    .mobile-sec h1{
+        color: goldenrod;
+        font-size: 22px;
+    }
+
+    .mobile-sec h2{
+        color: black;
+        font-size: 18px;
+    }
+
+    .mobile-about{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        padding: 10px 30px;
+    }
+
+    .mobile-about h1{
+        color: black;
+        font-size: 20px;
+    }
+
+    .mobile-left{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 420px;
+    }
+
+    .mobile-left p{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .mobile-left img{
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .link-btn{
+        color: white;
+        background-color: green;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .link-btn:active{
+        background-color: white;
+        color: green;
+        border: 1px solid green;
+    }
+
+    .mobile-services{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 700px;
+    }
+
+    .mobile-services h1{
+        color: black;
+        font-size: 20px;
+    }
+
+    .mobile-serve{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+    }
+
+    .mobile-photo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 200px;
+        border-radius: 10px;
+        contain: content;
+    }
+
+    .mobile-photo img{
+        object-fit: cover;
+        object-position: center;
+        width: 200px;
+    }
+
+    .mobile-photo h3{
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        padding: 5px;
+        background-color: green;
+        width: 100%;
+    }
+
+    .mobile-products{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+        padding: 10px 30px;
+    }
+
+    .mobile-products h1{
+        color: black;
+        font-size: 20px;
+    }
+
+    .mobile-side{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+    }
+
+    .mobile-side p{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .mobile-side img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .mobile-steps{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 50px;
+    }
+
+    .mobile-steps h3{
+        color: black;
+        font-size: 20px;
+    }
+
+    .mobile-steps h3 span{
+        color: green;
+        font-weight: 900;
+    }
+    .mobile-steps ol{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mobile-steps ol li{
+        color: black;
+        font-size: 16px;
+    }
+
+    .mobile-reason{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(/images/clyde-rs-4XbZCfU2Uoo-unsplash.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .mobile-reason h1{
+        color: black;
+        background: none;
+        font-size: 22px;
+    }
+
+    .mobile-reason-side{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 1200px;
+        background: none;
+    }
+
+    .mobile-cost{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        padding: 20px;
+        gap: 10px;
+        background-color: white;
+    }
+
+    .mobile-cost h2{
+        color: black;
+        font-size: 18px;
+    }
+
+    .mobile-cost p{
+        color: black;
+        font-size: 10px;
+    }
+
+    .mobile-open{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background: linear-gradient(rgba(0, 0, 0, 0.3)), url(/images/wind-solar.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 200px;
+    }
+
+    .mobile-open h1{
+        color: white;
+        background: none;
+        font-size: 22px;
+    }
+
+    .mobile-days{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 130px;
+        background: none;
+    }
+
+    .mobile-opening{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-opening h2{
+        color: white;
+        background: none;
+        font-size: 16px;
+    }
+
+    .mobile-opening p{
+        color: white;
+        background: none;
+        font-size: 8px;
+    }
+    .mobile-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 60vh;
+        padding: 20px;
+        background-color: rgb(92, 92, 92);
+    }
+
+    .mobile-foot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-foot h1{
+        color: white;
+        background: none;
+        font-size: 20px;
+    }
+
+    .mobile-foot a{
+        text-decoration: none;
+        color: white;
+        background: none;
+        font-size: 16px;
+    }
+
+    .mobile-contacts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact img{
+        width: 16px;
+        background: none;
+    }
+
+    .mobile-contact a{
+        color: white;
+        font-size: 16px;
+        background: none;
+    }
+
+    .mobile-follows{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: none;
+        width: 100%;
+    }
+
+    .mobile-follows h1{
+        color: white;
+        background: none;
+        font-size: 20px;
+    }
+
+    .mobile-follow{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 40%;
+        background: none;
+    }
+
+    .mobile-follow img{
+        width: 18px;
+        background: none;
+    }
+}
+

@@ -15,6 +15,14 @@ body{
     flex-direction: column;
 }
 
+.desktop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -231,4 +239,970 @@ footer{
 .follow-links img{
     width: 20px;
     height: 20px;
+}
+
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mobile-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: rgb(0, 100, 0);
+        position: fixed;
+        top: 0%;
+        z-index: 1;
+    }
+
+    .menu-open{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .logo{
+        width: 60px;
+        background: none;
+    }
+
+    .ham{
+        width: 40px;
+        background: none;
+    }
+
+    .menu-close{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 70vh;
+        background-color: black;
+        padding: 0px 20px 100px 20px;
+        position: absolute;
+        top: 0%;
+    }
+
+    .close-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+    }
+
+    .close{
+        width: 40px;
+        background: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        background: none;
+    }
+
+    .mobile-nav a{
+        background: none;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+
+    .mobile-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(212, 212, 212);
+        width: 100%;
+        padding: 100px 30px;
+        gap: 20px;
+    }
+
+    .mobile-main h1{
+        color: black;
+        background: none;
+        font-size: 32px;
+    }
+
+    .mobile-services{
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .mobile-service{
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .mobile-serve{
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .mobile-serve h2{
+        color: black;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-serve p{
+        text-align: center;
+        color: black;
+        background: none;
+        font-size: 20px;
+    }
+
+    .mobile-service img{
+        width: 400px;
+        border-radius: 10px;
+    }
+
+    .mobile-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 60vh;
+        padding: 20px;
+        background-color: rgb(92, 92, 92);
+    }
+
+    .mobile-foot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-foot h1{
+        color: white;
+        background: none;
+        font-size: 32px;
+    }
+
+    .mobile-foot a{
+        text-decoration: none;
+        color: white;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-contacts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact img{
+        width: 20px;
+        background: none;
+    }
+
+    .mobile-contact a{
+        color: white;
+        font-size: 24px;
+        background: none;
+    }
+
+    .mobile-follows{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: none;
+        width: 100%;
+    }
+
+    .mobile-follows h1{
+        color: white;
+        background: none;
+        font-size: 32px;
+    }
+
+    .mobile-follow{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 30%;
+        background: none;
+    }
+
+    .mobile-follow img{
+        width: 30px;
+        background: none;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .mobile-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: rgb(0, 100, 0);
+        position: fixed;
+        top: 0%;
+        z-index: 1;
+    }
+
+    .menu-open{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .logo{
+        width: 40px;
+        background: none;
+    }
+
+    .ham{
+        width: 30px;
+        background: none;
+    }
+
+    .menu-close{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 70vh;
+        background-color: black;
+        padding: 0px 20px 100px 20px;
+        position: absolute;
+        top: 0%;
+    }
+
+    .close-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+    }
+
+    .close{
+        width: 30px;
+        background: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        background: none;
+    }
+
+    .mobile-nav a{
+        background: none;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+
+    .mobile-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(212, 212, 212);
+        width: 100%;
+        padding: 50px 20px;
+        gap: 20px;
+    }
+
+    .mobile-main h1{
+        color: black;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-services{
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .mobile-service{
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .mobile-serve{
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .mobile-serve h2{
+        text-align: center;
+        color: black;
+        background: none;
+        font-size: 20px;
+    }
+
+    .mobile-serve p{
+        text-align: center;
+        color: black;
+        background: none;
+        font-size: 16px;
+    }
+
+    .mobile-service img{
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .mobile-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 60vh;
+        padding: 20px;
+        background-color: rgb(92, 92, 92);
+    }
+
+    .mobile-foot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-foot h1{
+        color: white;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-foot a{
+        text-decoration: none;
+        color: white;
+        background: none;
+        font-size: 20px;
+    }
+
+    .mobile-contacts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact img{
+        width: 16px;
+        background: none;
+    }
+
+    .mobile-contact a{
+        color: white;
+        font-size: 20px;
+        background: none;
+    }
+
+    .mobile-follows{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: none;
+        width: 100%;
+    }
+
+    .mobile-follows h1{
+        color: white;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-follow{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 40%;
+        background: none;
+    }
+
+    .mobile-follow img{
+        width: 20px;
+        background: none;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .mobile-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: rgb(0, 100, 0);
+        position: fixed;
+        top: 0%;
+        z-index: 1;
+    }
+
+    .menu-open{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .logo{
+        width: 40px;
+        background: none;
+    }
+
+    .ham{
+        width: 30px;
+        background: none;
+    }
+
+    .menu-close{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 70vh;
+        background-color: black;
+        padding: 0px 20px 100px 20px;
+        position: absolute;
+        top: 0%;
+    }
+
+    .close-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+    }
+
+    .close{
+        width: 30px;
+        background: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        background: none;
+    }
+
+    .mobile-nav a{
+        background: none;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+
+    .mobile-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(212, 212, 212);
+        width: 100%;
+        padding: 50px 20px;
+        gap: 20px;
+    }
+
+    .mobile-main h1{
+        color: black;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-services{
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .mobile-service{
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .mobile-serve{
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .mobile-serve h2{
+        text-align: center;
+        color: black;
+        background: none;
+        font-size: 20px;
+    }
+
+    .mobile-serve p{
+        text-align: center;
+        color: black;
+        background: none;
+        font-size: 16px;
+    }
+
+    .mobile-service img{
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .mobile-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 60vh;
+        padding: 20px;
+        background-color: rgb(92, 92, 92);
+    }
+
+    .mobile-foot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-foot h1{
+        color: white;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-foot a{
+        text-decoration: none;
+        color: white;
+        background: none;
+        font-size: 20px;
+    }
+
+    .mobile-contacts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact img{
+        width: 16px;
+        background: none;
+    }
+
+    .mobile-contact a{
+        color: white;
+        font-size: 20px;
+        background: none;
+    }
+
+    .mobile-follows{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: none;
+        width: 100%;
+    }
+
+    .mobile-follows h1{
+        color: white;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-follow{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 40%;
+        background: none;
+    }
+
+    .mobile-follow img{
+        width: 20px;
+        background: none;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .mobile-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: rgb(0, 100, 0);
+        position: fixed;
+        top: 0%;
+        z-index: 1;
+    }
+
+    .menu-open{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .logo{
+        width: 30px;
+        background: none;
+    }
+
+    .ham{
+        width: 20px;
+        background: none;
+    }
+
+    .menu-close{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 70vh;
+        background-color: black;
+        padding: 0px 15px 100px 15px;
+        position: absolute;
+        top: 0%;
+    }
+
+    .close-top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background: none;
+    }
+
+    .close{
+        width: 20px;
+        background: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        background: none;
+    }
+
+    .mobile-nav a{
+        background: none;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+
+    .mobile-main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(212, 212, 212);
+        width: 100%;
+        padding: 50px 20px;
+        gap: 20px;
+    }
+
+    .mobile-main h1{
+        color: black;
+        background: none;
+        font-size: 24px;
+    }
+
+    .mobile-services{
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .mobile-service{
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .mobile-serve{
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .mobile-serve h2{
+        text-align: center;
+        color: black;
+        background: none;
+        font-size: 20px;
+    }
+
+    .mobile-serve p{
+        text-align: center;
+        color: black;
+        background: none;
+        font-size: 16px;
+    }
+
+    .mobile-service img{
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .mobile-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 60vh;
+        padding: 20px;
+        background-color: rgb(92, 92, 92);
+    }
+
+    .mobile-foot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-foot h1{
+        color: white;
+        background: none;
+        font-size: 20px;
+    }
+
+    .mobile-foot a{
+        text-decoration: none;
+        color: white;
+        background: none;
+        font-size: 16px;
+    }
+
+    .mobile-contacts{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background: none;
+    }
+
+    .mobile-contact img{
+        width: 16px;
+        background: none;
+    }
+
+    .mobile-contact a{
+        color: white;
+        font-size: 16px;
+        background: none;
+    }
+
+    .mobile-follows{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: none;
+        width: 100%;
+    }
+
+    .mobile-follows h1{
+        color: white;
+        background: none;
+        font-size: 20px;
+    }
+
+    .mobile-follow{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 40%;
+        background: none;
+    }
+
+    .mobile-follow img{
+        width: 18px;
+        background: none;
+    }
 }
