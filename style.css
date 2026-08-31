@@ -480,6 +480,33 @@ ol li{
     background: none;
 }
 
+.recent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vh;
+}
+
+.recent h1{
+    font-size: 50px;
+    background: none;
+}
+
+.recent-pics{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    gap: 50px;
+}
+
+.recent-pics img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid green;
+}
+
 .open{
     margin-top: 50px;
     display: flex;
