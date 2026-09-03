@@ -299,12 +299,26 @@ footer{
     }
 
     .mobile-recent-pics{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 100px 0px 0px 0px;
+    }
+
+    .mobile-recent-pics h1{
+        font-size: 32px;
+        background: none;
+    }
+
+    .mobile-recent{
         display: grid;
         grid-template-columns: repeat(2, 10fr);
         gap: 20px;
     }
 
-    .mobile-recent-pics img{
+    .mobile-recent img{
         width: 300px;
         height: 300px;
         object-fit: cover;
@@ -489,12 +503,26 @@ footer{
     }
 
     .mobile-recent-pics{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 100px 0px 0px 0px;
+    }
+
+    .mobile-recent-pics h1{
+        font-size: 32px;
+        background: none;
+    }
+
+    .mobile-recent{
         display: grid;
         grid-template-columns: repeat(2, 10fr);
         gap: 20px;
     }
 
-    .mobile-recent-pics img{
+    .mobile-recent img{
         width: 150px;
         height: 150px;
         object-fit: cover;
@@ -679,12 +707,26 @@ footer{
     }
 
     .mobile-recent-pics{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 100px 0px 0px 0px;
+    }
+
+    .mobile-recent-pics h1{
+        font-size: 32px;
+        background: none;
+    }
+
+    .mobile-recent{
         display: grid;
         grid-template-columns: repeat(2, 10fr);
         gap: 20px;
     }
 
-    .mobile-recent-pics img{
+    .mobile-recent img{
         width: 130px;
         height: 130px;
         object-fit: cover;
@@ -869,12 +911,26 @@ footer{
     }
 
     .mobile-recent-pics{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 50px 0px 0px 0px;
+    }
+
+    .mobile-recent-pics h1{
+        font-size: 32px;
+        background: none;
+    }
+
+    .mobile-recent{
         display: grid;
         grid-template-columns: repeat(2, 10fr);
         gap: 20px;
     }
 
-    .mobile-recent-pics img{
+    .mobile-recent img{
         width: 130px;
         height: 130px;
         object-fit: cover;
